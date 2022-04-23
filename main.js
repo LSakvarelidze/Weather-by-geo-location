@@ -4,7 +4,7 @@ function getLocation() {
     if (navigator.geolocation) {
         navigator.geolocation.getCurrentPosition(getWeatherByCoords);
     } else {
-        alert('Your browser doesn't supports the feature I need :(')
+        alert("Your browser doesn't supports the feature I need :(")
     }
 }
 
